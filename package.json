@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "a nodejs server template ",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "nodemon server/app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbaeza/nodejs-template.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "carlos.baeza@posteo.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbaeza/nodejs-template/issues"
+  },
+  "homepage": "https://github.com/cbaeza/nodejs-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
