@@ -4,7 +4,7 @@ const PORT = 8090;
 
 HTTP.createServer( (req, res) => {
 	res.writeHead(200, { 'Content-Type': 'text/plain' });
-	res.end('Hello form nodeje server.');
+	res.end('Hello from nodejs server.');
 }).listen(PORT, HOSTNAME, ()=>{
 	console.log(`Server running at http://${HOSTNAME}:${PORT}/`);
 });
